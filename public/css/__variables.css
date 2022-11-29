@@ -1,0 +1,16 @@
+:root{
+    --hue-color: 260;
+    --accent-color: hsl(var(--hue-color),100%,60%);
+    --dark-text: hsl(0,0%,20%);
+    --light-text: hsl(0,0%,40%);
+    --theme-color: hsl(var(--hue-color),100%,95%);
+    --theme-x: hsl(var(--hue-color),100%,3%);
+    --fade: #00000010;
+}
+body.dark{
+    --fade: #ffffff10;
+    --dark-text: hsl(0,0%,80%);
+    --light-text: hsl(0,0%,60%);
+    --theme-x: hsl(var(--hue-color),100%,95%);
+    --theme-color: hsl(var(--hue-color),100%,3%);
+}
